@@ -30,6 +30,10 @@
     set vcd_video_system = HD
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): set serial msp to full duplex
+     set serialmsp_halfduplex = OFF
+#$ OPTION END
+
 #$ OPTION_GROUP BEGIN: set displayport and MSP VTX on uarts
 
     #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 1 
